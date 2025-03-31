@@ -9,3 +9,6 @@ while True:
 		number_list.append(number)
 	except ValueError:
 		break
+
+if number_list:
+	most_count = 0
