@@ -9,3 +9,8 @@ while True:
 		number_list.append(number)
 	except ValueError:
 		break
+
+number_list.sort()
+
+for i in number_list:
+	print(i)
