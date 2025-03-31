@@ -2,6 +2,8 @@ numbers = 0
 
 number_list = []
 
+with_the_most_number_of_duplicate_list = []
+
 while True:
 	numbers += 1
 	try:
@@ -18,3 +20,9 @@ if number_list:
 
 		if count >= most_count:
 			most_count = count
+
+			if i not in with_the_most_number_of_duplicate_list:
+				with_the_most_number_of_duplicate_list.append(i)
+
+for i in with_the_most_number_of_duplicate_list:
+	print(i)
