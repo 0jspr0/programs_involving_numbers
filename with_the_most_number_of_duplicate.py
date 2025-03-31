@@ -15,3 +15,6 @@ if number_list:
 
 	for i in number_list:
 		count = number_list.count(i)
+
+		if count >= most_count:
+			most_count = count
