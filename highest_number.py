@@ -9,3 +9,7 @@ while True:
 		number_list.append(number)
 	except ValueError:
 		break
+
+if number_list:
+	highest_number = max(number_list)
+	print(f"Highest number: {highest_number}")
