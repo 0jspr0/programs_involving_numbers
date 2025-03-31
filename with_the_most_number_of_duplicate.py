@@ -12,3 +12,6 @@ while True:
 
 if number_list:
 	most_count = 0
+
+	for i in number_list:
+		count = number_list.count(i)
